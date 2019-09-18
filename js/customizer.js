@@ -17,9 +17,9 @@
             $( '.blog-description' ).text( to );
         } );
     } );
-    /*
+    
 
-    // Header text color
+    // Header text colour
     wp.customize( 'header_textcolor', function( value ) {
         value.bind( function( to ) {
             if ( 'blank' === to || '' === to || false === to) {
@@ -33,27 +33,27 @@
             }
         } );
     } );
-    // Hover color
+    // Hover colour
     wp.customize( 'casper_hover_color', function( value ) {
         value.bind( function( to ) {
             $( 'a:hover, header .blog-title a:hover, header .social-icons a:hover' ).css( 'color', to );
         } );
     });
-    // Home Menu color
+    // Home Menu colour
     wp.customize( 'casper_home_menu_color', function( value ) {
         value.bind( function( to ) {
             $( '.main-navigation a' ).css( 'color', to );
         } );
     });
-    // Menu color
+    // Menu colour
     wp.customize( 'casper_menu_color', function( value ) {
         value.bind( function( to ) {
             $( '.main-navigation a' ).css( 'color', to );
         } );
     });
-    */
+    
 
-    // Other Page Header text color
+    // Other Page Header text colour
     wp.customize( 'casper_header_textcolor', function( value ) {
         value.bind( function( to ) {
             if ( 'blank' === to || '' === to || false === to ) {
@@ -68,14 +68,14 @@
         } );
     } );
 
-    // Header Color
+    // Header Colour
     wp.customize( 'casper_header_color', function( value ) {
         value.bind( function( to ) {
             $( '.site-head' ).css( 'background-color', to );
         } );
     });
 
-    // Link color
+    // Link colour
     wp.customize( 'casper_link_color', function( value ) {
         value.bind( function( to ) {
             $( 'section a' ).css( 'color', to );
@@ -118,7 +118,7 @@
         });
     });
 
-    // Footer info
+    // Footer information
     wp.customize( 'casper_custom_footer', function( value ) {
         value.bind( function( to ) {
             if ( '' === to ) {
